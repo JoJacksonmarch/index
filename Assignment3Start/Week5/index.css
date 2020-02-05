@@ -1,0 +1,68 @@
+body { 
+  color: #343434;
+  margin: 0;
+  padding: 0;
+}
+img { 
+    width: 250px;
+} 
+a { 
+    color: white;
+} 
+a:hover{ 
+    text-decoration: none;
+}
+h2{ 
+    margin: 0;
+}
+.content-wrap{ 
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+} 
+header { 
+    background-color: #4c7e7b;
+    color: whitesmoke ;
+} 
+/* Added a headera to index.css */
+header a{ 
+ color: white;
+}
+.projects { 
+    background-color:#DE9584 ; 
+}/*Added btn to projects and changed the blog link */ 
+.projects a { 
+color: #4c7e7b;
+}
+.projects .btn{ 
+  color:#DBD8D4;  
+  background-color:#4c7e7b; 
+  text-decoration: none;
+  padding: 8px; 
+  border-radius: 4px;
+  display: inline-block;
+} 
+.projects .btn:hover{ 
+    background: #68807e;
+}
+.work-experience { 
+    background-color: #94BFBF;
+} 
+a:visited{ 
+    color: darkblue;
+} 
+.education{ 
+    background-color: #DBD8D4;
+}
+footer{ 
+    font-family:'Oswald', sans-serif;
+    background-color: #DE756F; 
+    color:#DBD8D4;
+}
+section { 
+    font-family:'Kadwa', serif;
+} 
+
+section h1, h2, h3{ 
+    font-family: 'Oswald', sans-serif;
+}
