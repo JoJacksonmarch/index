@@ -1,0 +1,97 @@
+html, body {
+	margin: 0;
+}
+html {
+	background:#4c7e7b;
+}
+body {
+	font: 100% Lato, Helvetica, sans-serif;
+	background:#DE9584;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2%;
+	line-height: 1.6;
+}
+article, aside, section, nav, figure, header, footer {
+	display: block;
+}
+article{ 
+  padding-top: 15px;
+}
+h1, h2, h3, h4 {
+	font-weight: normal;
+  font-family: 'Kadwa', serif; 
+	color: #4c7e7b;
+	margin: 0;
+	line-height: 1;
+}
+h1 {
+	font-size: 2.6em;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+h4 {
+	font: 1.2em 'Kadwa', serif; 
+	color: black;
+}
+p
+ {
+   color: black;
+	margin: 0 0 1em;
+}
+a {
+	color: #77A0B8;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+code {
+	color: red;
+}
+
+/*********************** NAVIGATION ***********************/
+nav ul {
+    list-style: none;/* remove bullets */
+     margin:auto;
+     padding-top: 0px;
+  }
+  nav a{ 
+    text-decoration: none;/* remove underline */ 
+    color: #DBD8D4;/* change color */
+    padding: 10px 15px;/* add space around text */
+    background-color: #4c7e7b ;/* change background color around text */
+    font: bold 12px/18px sans-serif;/*change font, style size line height, and family */
+    border-radius: 5px;/* add rounded corners */
+  }
+  nav ul li{ 
+    display: inline-block;/* display in one line */
+    position: relative;
+  }
+  nav a:hover { 
+    background-color: #4c7e7b;/* change the background color on hover color #DBD8D4 */
+  }
+  nav ul li ul{ 
+    /*display: none; DON'T DO THIS!! NOT ACCESIBLE */
+    left: -999999px;
+    position: absolute;/* position absolutely underneath menu items */
+    top: 2em;/* move submenue below main nav */
+    padding: 0;/* move submenue horizonally below main nav */
+    width: 200%;/* increase size of submenu */
+  }
+  nav ul li ul a{ 
+  background-color: #4c7e7b;/* change submenu link color to color #DBD8D4 */
+  width: 10em;/* change submenu link width*/
+  display: block;/* display as block */
+  }
+  nav li:hover ul{ 
+    left: 0px;/* bring back sub-menu on screen*/
+  }
+  nav ul li ul a:hover { 
+    background-color:#94BFBF;/* changed background color to #DE9584 */
+  }
